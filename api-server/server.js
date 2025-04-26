@@ -130,7 +130,7 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '', // change si besoin
-  database: 'task_db'
+  database: 'tasks_db'
 });
 
 db.connect((err) => {
